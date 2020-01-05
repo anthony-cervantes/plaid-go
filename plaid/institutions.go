@@ -60,6 +60,7 @@ type GetInstitutionsOptions struct {
 	Products                []string `json:"products"`
 	IncludeOptionalMetadata bool     `json:"include_optional_metadata"`
 	CountryCodes            []string `json:"country_codes"`
+	RoutingNumberFilter     []string `json:"routing_numbers"`
 }
 
 type GetInstitutionsResponse struct {
@@ -95,7 +96,6 @@ type SearchInstitutionsOptions struct {
 	IncludeOptionalMetadata bool                   `json:"include_optional_metadata"`
 	CountryCodes            []string               `json:"country_codes"`
 	AccountFilter           map[string]interface{} `json:"account_filter"`
-	RoutingNumberFilter     []string               `json:"routing_numbers"`
 }
 
 type SearchInstitutionsResponse struct {
