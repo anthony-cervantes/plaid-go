@@ -95,6 +95,7 @@ type SearchInstitutionsOptions struct {
 	IncludeOptionalMetadata bool                   `json:"include_optional_metadata"`
 	CountryCodes            []string               `json:"country_codes"`
 	AccountFilter           map[string]interface{} `json:"account_filter"`
+	RoutingNumberFilter     []string               `json:"routing_numbers"`
 }
 
 type SearchInstitutionsResponse struct {
