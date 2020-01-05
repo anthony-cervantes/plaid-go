@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/plaid/plaid-go/internal/release"
+	"github.com/anthony-cervantes/plaid-go/internal/release"
 	"github.com/spf13/cobra"
 )
 
